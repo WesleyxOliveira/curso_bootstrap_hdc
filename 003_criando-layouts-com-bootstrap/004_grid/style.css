@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*Grid*/
+.container {
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col,
+.col-1,
+.col-4,
+.col-2,
+.col-11 {
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+}
+
+#largura-costumizada {
+    max-width: 500px;
+}
