@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* XS */
+h1 {
+    color: red;
+}
+
+/* SM */
+@media(min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* MD */
+@media(min-width: 768px) {
+    h1 {
+        text-align: center;
+        color: springgreen;
+    }
+}
+
+/* LG */
+@media(min-width: 992px) {
+    h1 {
+        background-color: brown;
+        color: white;
+    }
+}
+
+.btn-primary {
+    background-color: red;
+}
+
+.bg-warning {
+    background-color: #999;
+}
+
+.container {
+    background-color: lightgray;
+}
+
+.container-fluid {
+    background-color: darkgray;
+}
+
+/* Container breakpoint */
+
+.container-sm {
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+
+.container-md {
+    margin-bottom: 30px;
+    border: 2px solid crimson;
+}
+
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px solid chocolate;
+}
