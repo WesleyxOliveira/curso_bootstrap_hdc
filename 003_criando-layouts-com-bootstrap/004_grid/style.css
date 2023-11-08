@@ -16,8 +16,10 @@
 
 .col,
 .col-1,
-.col-4,
 .col-2,
+.col-3,
+.col-4,
+.col-6,
 .col-11 {
     border: 2px dashed red;
     height: 100%;
@@ -26,4 +28,18 @@
 
 #largura-costumizada {
     max-width: 500px;
+}
+
+.vertical {
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.col-6, 
+.col-3 {
+    height: 50px;
 }
