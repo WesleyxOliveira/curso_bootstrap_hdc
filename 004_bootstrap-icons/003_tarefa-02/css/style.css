@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+.row {
+    padding: 1em;
+}
+
 .col-4 {
     display: flex;
-    font-size: 4em;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    font-size: 4em;
 }
 
 .col-8 {
@@ -22,3 +26,4 @@
 .bi-youtube {
     color: #FF0000;
 }
+
