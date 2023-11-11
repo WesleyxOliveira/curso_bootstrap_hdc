@@ -1,0 +1,22 @@
+.bi-bell {
+    font-size: 400px;
+    color: crimson;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+.bi-facebook {
+    font-size: 200px;
+    transition: .4s;
+    color: blue;
+    cursor: pointer;
+}
+
+.bi-facebook:hover {
+    text-shadow: 14px 14px 4px rgba(0, 0, 0, 0.384);
+}
+
+.red {
+    color: red;
+}

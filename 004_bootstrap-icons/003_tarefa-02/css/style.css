@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.col-4 {
+    display: flex;
+    font-size: 4em;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-8 {
+    text-align: justify;
+}
+
+.bi-apple {
+    color: #000;
+}
+
+.bi-facebook {
+    color: #0866FF;
+}
+
+.bi-youtube {
+    color: #FF0000;
+}
