@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>004 - campos somente leitura</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--
+        Campos osmente leitura
+
+        * O readonly é um atributo que indica somente leitura;
+
+        * Temos duas formas de apresentação no Bootstrap;
+
+        * Atributo: colocamos o atributo readonly e o input recebe os estilos do componente;
+
+        * Classe do BS: o input fica parecendo apenas um texto;
+
+        * Obs: readonly é uma forma de enviar os dados para o serivdor, já o disabled não envia!
+    -->
+
+    <!--Read only-->
+    <div class="col-4 m-4">
+        <h2>Formulário de Read Only</h2>
+
+        <form>
+            <div class="mb-4">
+                <label for="email1" class="form-label">E-mail:</label>
+                <input type="email" name="email1" id="email1" class="form-control" aria-describedby="emailHelp" placeholder="Insira seu e-mail" readonly value="wesley@gmail.com">
+            </div>
+            <div class="mb-4">
+                <label for="email2" class="form-label">E-mail:</label>
+                <input type="email" name="email2" id="email2" class="form-control-plaintext" aria-describedby="emailHelp" placeholder="Insira seu e-mail" readonly>
+            </div>
+            
+            <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
