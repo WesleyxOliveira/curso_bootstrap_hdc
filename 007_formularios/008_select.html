@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>008 - Select</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="pt-5">
+    <!--
+        SELECT
+
+        * Há dois tipos de select:
+
+        * Valor único: usuário só pode escolher uma opção;
+
+        * Valores múltiplos: usuáro pode escolher uma ou mais;
+
+        * O Bootstrap possui componente para os dois;
+    -->
+
+    <!--SELECT DE UMA OPÇÃO-->
+    <div class="mb-4">
+        <span class="h3">Select de uma opção</span>
+        <select name="opcoes" id="opcoes" class="form-select">
+            <option selected>Selecione uma opção</option>
+            <option value="1">Primeira opção</option>
+            <option value="2">Segunda opção</option>
+            <option value="3">Terceira opção</option>
+        </select>
+    </div>
+    
+    <!--SELECT DE MÚLTIPAS OPÇÕES-->
+    <div class="mb-4">
+        <span class="h3 d-block">Select de múltiplas opções</span>
+        <label for="exemple-select" class="form-label">Selecione as suas opções</label>
+        <select class="form-select" id="exemple-select" multiple>
+            <option value="1">Maçã</option>
+            <option value="2">Banana</option>
+            <option value="3">Laranja</option>
+        </select>
+    </div>
+
+    <!--SELECT DE UMA OPÇÃO disabled-->
+    <div class="mb-4">
+        <span class="h3">Select de uma opção disabled</span>
+        <select name="opcoes1" id="opcoes1" class="form-select" disabled>
+            <option selected>Selecione uma opção</option>
+            <option value="1">Primeira opção</option>
+            <option value="2">Segunda opção</option>
+            <option value="3">Terceira opção</option>
+        </select>
+    </div>
+
+     <!--SELECT DE MÚLTIPAS OPÇÕES disabled-->
+     <div class="mb-4">
+        <span class="h3 d-block">Select de múltiplas opções disabled</span>
+        <label for="exemple-select1" class="form-label">Selecione as suas opções</label>
+        <select class="form-select" id="exemple-select1" multiple disabled>
+            <option value="1">Maçã</option>
+            <option value="2">Banana</option>
+            <option value="3">Laranja</option>
+        </select>
+    </div>
+</body>
+
+</html>
