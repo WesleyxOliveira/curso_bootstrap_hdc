@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
-.form-select { 
-width: 82%;
+.form-check {
+    margin-left: 14px;
+}
+
+.btn {
+   width: 120px;
+   margin: 12px;
 }
