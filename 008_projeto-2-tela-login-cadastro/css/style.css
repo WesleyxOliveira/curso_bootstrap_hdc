@@ -35,7 +35,7 @@ body {
 }
 
 #form-container form {
-    padding-bottom: 0;
+    padding-bottom: 50px;
 }
 
 #form-container .form-control {
@@ -56,13 +56,16 @@ body {
     color: #222;
 }
 
-#form-container input[type="submit"] {
+#form-container .form-check-input:checked,
+#form-container input[type="submit"]
+{
     background-color: #6c63ff;
     border-color: #6c63ff;
 }
 
 .btn.btn-primary {
     width: 100%;
+    margin-top: 25px;
 }
 
 
@@ -74,10 +77,9 @@ body {
 
 /* IMAGE */
 
-.row .align-items-center {
+.row.align-items-center {
     align-content: center;
     height: 100%;
-    padding: 75px 0;
 }
 
 .col-md-6.order-md-1 {
