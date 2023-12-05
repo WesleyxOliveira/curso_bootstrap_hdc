@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0018 - scrollspy</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+        defer></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--
+       Scrollspy
+
+       * O scrollspy é um componente para levar a barra de navegação a um local indicado;
+
+       * Geralmente utilizado para fixar as seções do site;
+
+       * Ao clicar em um botão o scroll desce;
+    -->
+
+    <!--Scrollspy-->
+    <nav id="scrollspy" class="navbar navbar-light bg-light px-3 mb-4">
+        <a href="#" class="navbar-brand">Minha marca</a>
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#secao-1" class="nav-link">Seção 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#secao-2" class="nav-link">Seção 2</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div data-bs-spy="scroll" data-bs-target="#scrollspy" data-bs-offset="0" tabindex="0">
+        <h4 id="secao-1">Seção 1</h4>
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus architecto ad nostrum autem odit tenetur quas eaque distinctio mollitia facilis laborum sit nobis modi voluptatibus, cumque exercitationem laudantium possimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit sequi quidem, inventore temporibus esse corrupti officiis laudantium alias fugit ex, voluptate magni provident doloremque! Eum minus id voluptates quae?
+        </p>
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus architecto ad nostrum autem odit tenetur quas eaque distinctio mollitia facilis laborum sit nobis modi voluptatibus, cumque exercitationem laudantium possimus!
+        </p>
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus architecto ad nostrum autem odit tenetur quas eaque distinctio mollitia facilis laborum sit nobis modi voluptatibus, cumque exercitationem laudantium possimus!
+        </p>
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus architecto ad nostrum autem odit tenetur quas eaque distinctio mollitia facilis laborum sit nobis modi voluptatibus, cumque exercitationem laudantium possimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit sequi quidem, inventore temporibus esse corrupti officiis laudantium alias fugit ex, voluptate magni provident doloremque! Eum minus id voluptates quae?
+        </p>
+
+        <h4 id="secao-2">Seção 1</h4>
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus architecto ad nostrum autem odit tenetur quas eaque distinctio mollitia facilis laborum sit nobis modi voluptatibus, cumque exercitationem laudantium possimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit sequi quidem, inventore temporibus esse corrupti officiis laudantium alias fugit ex, voluptate magni provident doloremque! Eum minus id voluptates quae?
+        </p>
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus architecto ad nostrum autem odit tenetur quas eaque distinctio mollitia facilis laborum sit nobis modi voluptatibus, cumque exercitationem laudantium possimus!
+        </p>
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus architecto ad nostrum autem odit tenetur quas eaque distinctio mollitia facilis laborum sit nobis modi voluptatibus, cumque exercitationem laudantium possimus!
+        </p>
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus architecto ad nostrum autem odit tenetur quas eaque distinctio mollitia facilis laborum sit nobis modi voluptatibus, cumque exercitationem laudantium possimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit sequi quidem, inventore temporibus esse corrupti officiis laudantium alias fugit ex, voluptate magni provident doloremque! Eum minus id voluptates quae?
+        </p>
+    </div>
+</body>
+
+</html>
